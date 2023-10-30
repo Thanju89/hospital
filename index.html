@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinity Hospital</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://kit.fontawesome.com/62f2a127c8.css" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/62f2a127c8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <nav >
+    <div class="logo">
+      <h6 ><img src="D:\Hospital\Hospital Data\logo hos.png">INFINITY HOSPITAL</h6>
+    </div>
+    <ul>
+      <li> <i class="fa fa-home" aria-hidden="true"></i></li>
+      <li>  <a href="#about"> 
+        <div class="dropdown">
+          <div class="dropbtn">About</div>
+          <div class="dropdown-content">
+            <a href="D:\Hospital\overview.html">Overview</a>
+            <a href="#facilities">Facilities</a>
+            <a href="D:\Hospital\personalisedcare.html">Personalised Care</a>
+            <a href="D:\Hospital\surgicalskills.html">Surgical Skills</a>
+          </div>
+        </div>
+       </a></li>
+      <li> <a href="#departments"> 
+        <div class="dropdown">
+        <div class="dropbtn">Departments</div>
+        <div class="dropdown-content">
+          <a href="D:\Hospital\Cardiology.html">Cardiology</a>
+          <a href="D:\Hospital\Orthopaedics.html">Orthopaedics</a>
+          <a href="D:\Hospital\Neurology.html">Neurology</a>
+          <a href="D:\Hospital\Gynacology.html">Gynacology</a>
+          <a href="D:\Hospital\Dermatology.html">Dermatology</a>
+          <a href="D:\Hospital\Pediatrics.html">Pediatrics</a>
+        </div>
+      </div>
+     </a></li>
+      <li> <a href="#services">
+        <div class="dropdown">
+          <div class="dropbtn">Services</div>
+          <div class="dropdown-content">
+            <a href="D:\Hospital\covid.html">Covid-19</a>
+            <a href="D:\Hospital\Dental.html">Dental</a>
+            <a href="D:\Hospital\ent.html">ENT</a>
+            <a href="D:\Hospital\Eye.html">Eye</a>
+            <a href="D:\Hospital\bloodbank.html">Blood Bank</a>
+            <a href="D:\Hospital\Dialysis.html">Dialysis</a>
+          </div>
+        </div>
+       </a></li>
+      <li> <a href="#contact"> 
+        <div class="dropdown">
+          <div class="dropbtn">Contact Us</div>
+          <div class="dropdown-content">
+            <a href="D:\Hospital\Query.html">Post a Query</a>
+            <a href="D:\Hospital\bookappointment.html">Book an Appointment</a>
+            <a href="D:\Hospital\review.html">Post Review</a>
+          </div>
+        </div>
+       </a></li>
+    </ul>
+  </nav>
+
+ 
+  
+  <!-------Javascript for toggle menu---->
+<script>
+
+  var navLinks=document.getElementById("navLinks");
+  function showMenu(){
+      navLinks.style.right="0";
+  }
+  function hideMenu(){
+      navLinks.style.right="-200px";
+  }
+
+</script>
+
+<br>
+
+
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container" id="home">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img class="image" src="https://images.pexels.com/photos/1250655/pexels-photo-1250655.jpeg?cs=srgb&dl=light-people-technology-1250655.jpg&fm=jpg" >
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img class="image" src="https://www.healthlawobserver.com/wp-content/uploads/2019/07/hospitalroom-1.jpg" >
+
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img  class="image" src="http://i.huffpost.com/gen/1602403/images/o-HOSPITAL-HALLWAY-facebook.jpg" >
+   
+  </div>
+
+  <div class="mySlides fade">
+      <div class="numbertext">4 / 6</div>
+      <img class="image" src="https://tse2.mm.bing.net/th?id=OIP.46pC-KvCYnhywzuhlaPsuQHaDt&pid=Api&P=0">
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 6</div>
+      <img class="image" src="https://tse3.mm.bing.net/th?id=OIP.FB9iNfL7f2PzSCRpsPaYhAHaEA&pid=Api&P=0" >
+      
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 6</div>
+      <img class="image" src="https://www.sacfirm.com/wp-content/uploads/2019/06/GettyImages-961288154-e1561759666671.jpg" >
+      
+    </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+
+<script>
+  let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+let i;
+let slides = document.getElementsByClassName("mySlides");
+for (i = 0; i < slides.length; i++) {
+  slides[i].style.display = "none";
+}
+slideIndex++;
+if (slideIndex > slides.length) {slideIndex = 1}
+slides[slideIndex-1].style.display = "block";
+setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+</script>
+
+
+<!---about---->
+<section id="about">
+<div class="abimg">
+<div class="attribute" >
+  <h2 >ABOUT</h2>
+  <h2 >WHY CHOOSE US</h2 >
+  <h4 style="font-family: Georgia, 'Times New Roman', Times, serif;font-weight: 900;padding-bottom: 5px;">Fast & Reliable Medical & HealthCare Solutions to Our PATIENTS</h4>
+  <h4 style="color:white;font-family: Georgia, 'Times New Roman', Times, serif;font-weight:bold;padding-bottom: 6px;">Infinity Hospital is located in the heart of the Pulivendula city.</h4>
+  <p class="para"> 
+      "Infinity Hospital has grown over the years with substantial increase in bed strength, 
+      infrastructure and an assurance of quality patient care with human touch using state-of-the art
+      technology with quality health care under one roof."<br>The consultants and Nursing staff are not only 
+      just experts in their specialty, they are also driven by the vision of quality and commitment
+      in giving individual attention for maximum treatment outcome. Hospital is well known for its clinical skills, friendly ambience and motivated staff,
+      patients who admit here leave with delight and fondle the memorable moments of their stay.
+       <a href="D:\Hospital\overview.html" class="button">Read More</a></p>
+</div>
+<div class="att">
+  <img src="https://static.vecteezy.com/system/resources/previews/000/656/903/original/vector-set-of-doctor-cartoon-characters-medical-staff-team-concept.jpg" alt="">
+</div>
+</div>
+</section>
+
+
+<!------departments-->
+         
+<section class="Department" id="departments">
+  <h1 class="playfair italic sm-pt bold">Departments</h1>
+   <div class="row " >
+     <div class="department-col">
+        <img src="D:\Hospital\Hospital Data\Cardioiology.jpg">
+          <h3 ><a href="Cardiology.html">CARDIOLOGY</a></h3>
+      </div>
+
+      <div class="department-col">
+           <img src="https://ssimsb.ac.in/public//uploads/course/1655211147.jpg">
+            <h3><a href="Orthopaedics.html">ORTHOPAEDICS</a></h3>
+      </div>
+
+      <div class="department-col">
+          <img src="https://www.khadehospital.com/wp-content/uploads/2021/03/Gynaecology.jpg">
+          <h3><a href="Gynacology.html">GYNAECOLOGY</a></h3>
+      </div>
+  </div> 
+      <div class="row">
+          <div class="department-col">
+            <img src="https://medschool.cuanschutz.edu/images/librariesprovider61/default-album/n_fellowship.jpg?sfvrsn=be7c74b9_4">
+              <h3><a href="Neurology.html">NEUROLOGY</a></h3>
+          </div>
+            <div class="department-col">
+              <img src="https://www.careerindia.com/img/2017/07/dermat-19-1500457935.jpg">
+                <h3><a href="Dermatology.html">DERMATALOGY</a></h3>
+              </div>
+
+              <div class="department-col">
+                <img src="D:\Hospital\Hospital Data\Pediatric.jpg">
+                  <h3><a href="Pediatrics.html">PEDIATRICS</a></h3>  
+              </div>
+    </div>
+  </div>
+</section>
+
+<!-------facilities------->
+<section id="facilities">
+
+  <div class="facilities"  style="padding:10px;" >
+    <h1 class="playfair italic sm-pt bold">Facilities</h1>
+
+                <div class="row" style="padding:20px;">
+                         <div class="fac1">
+                                <h3 ><i class="fa-solid fa-truck-medical" style="font-size: 30px;"></i>24 Hours Support</h3>
+                                <p >Emergency , Accident and Trauma Care</p>
+                          </div>
+                        <div class="fac1">
+                               <h3 ><i class="fa-solid fa-hotel" style="font-size: 30px;"></i>Canteen</h3>
+                               <p >Canteen services available at reasonable rates.</p>
+                        </div>			
+                 </div>
+
+             <div class="row" style="padding:20px;">			
+                      <div class="fac1">
+                        
+                        <h3 >  <i class="fa-solid fa-stethoscope" style="font-size: 30px;"></i>House Keeping</h3>
+                          <p >House keeping services provided round the clock.</p>
+                      </div>
+                      <div class="fac1">
+                           <h3 ><i class="fa fa-internet-explorer" aria-hidden="true" style="font-size: 30px;"></i>INTERNET</h3>
+                          <p >Internet facility available at a reasonable cost.</p>
+                      </div>
+              </div>
+
+              <div class="row" style="padding:20px;">
+                             <div class="fac1">
+                                    <h3 ><i class="fa-solid fa-capsules" style="font-size: 30px;"></i>24-Hour Pharmacy</h3>
+                                     <p style="text-align:left;">Understanding the importance of on-time drugs, we offer 24-hour pharmacy services with highly qualified pharmacists.</p>
+                             </div>			
+                             <div class="fac1">
+                                       <h3 ><i class="fa-solid fa-building-columns" style="font-size: 30px;"></i>Bank &amp; ATM</h3>
+                                       <p >A full-fledged bank and ATM facility is available near the hospital premises.</p>
+                              </div>
+                </div>             
+
+               <div class="row" style="padding:20px;">			
+                    <div class="fac1">
+                         <h3 ><i class="fa-solid fa-x-ray" style="font-size: 30px;"></i>Digital X-Ray</h3>
+                          <p >Digital X-Ray services provided round the clock.</p>
+                    </div>
+                    <div class="fac1">
+                       <h3><i class="fa-solid fa-bed-pulse" style="font-size: 30px;"></i>VIP Wards</h3>
+                       <p  style="text-align: justify;">Deluxe room to provide more space to accomodate more caregivers with a homely feel to your comfort.</p>
+                     </div>
+               </div>
+          
+     
+    </section>
+
+
+
+    <!--Services-->
+
+    <section class="icon" id="services">
+
+      <h1 class="playfair italic sm-pt bold">Services</h1>
+
+         <div class="row">
+
+                <div class="icon-col">
+                     <img src="https://th.bing.com/th/id/OIP.8VogU3_OmlVGypeAQYqQZgAAAA?pid=ImgDet&w=300&h=300&rs=1">
+                     <h2><a href="D:\Hospital\Dialysis.html">Dialysis</h2></a>
+                </div>
+                 <div class="icon-col">
+                        <img src="https://as1.ftcdn.net/v2/jpg/04/16/93/36/1000_F_416933626_1cj7GrzTZjtPGTb0heYrOz0xcxHzVJ2M.jpg">
+                        <h2><a href="D:\Hospital\ENT\ent.html">ENT</h2></a>
+                  </div>
+                 <div class="icon-col">
+                         <img src="https://media.istockphoto.com/id/1211614741/vector/coronavirus-covid-19-outbreak-virus-image-covid-19-logo-with-virus-shape-and-text-flat.jpg?s=170667a&w=0&k=20&c=Zo-dGjHhPQ25tq01Z_XgbNvOZWwF5mN9wBKR7deERU0=">
+                         <h2><a href="covid.html">COVID-19</a></h2>
+                 </div>
+          
+            
+                 <div class="icon-col">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRiESn3TfKSZgfH8GrrEReVoXsGndBizE_rhJJkDpYc07d6O8n9Ez9Ix8WpNIaF7JPaE8&usqp=CAU">
+                  <h2><a href="D:\Hospital\Dental.html">Dental</h2></a>
+               </div>
+              <div class="icon-col">
+                   <img src="D:\Hospital\Hospital Data\eye.jpg">
+                   <h2><a href="D:\Hospital\Eye.html">EYE</h2></a>
+              </div>
+              <div class="icon-col">
+                    <img src="https://th.bing.com/th/id/OIP.vcrpQWtQcJFgYyRkVqAYPAAAAA?w=112&h=118&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+                    <h2><a href="D:\Hospital\bloodbank.html">Blood Bank</h2></a>
+               </div>
+     </div>
+ </section>       
+</div>
+
+  
+<!--Review-->
+<!--testimonals-->
+
+<section id="testimonials">
+  <div class="testimonial-heading">
+      <span>reviews</span>
+      <h1 class="playfair italic sm-pt bold">Patient's Voice</h1>
+  </div>
+
+  <!-- reviews box container-->
+
+  <div class="testimonial-box-container">
+      <div class="column1">
+      <!--box1-->
+      <div class="testimonial-box">
+          <div class="box-top">
+              <div class="profile">
+                  <div class="profile-img">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcWkPyVnffNFnoZO6zjplGHRk0_3_ewtD_Af43R7VxUZ2KbxL_XD3mJxXCUUgJVvQ8cSw&usqp=CAU">
+                  </div>
+
+                  <div class="name-user">
+                      <strong>Balaji </strong>
+                      <span>@balaji_sb</span>
+                  </div>
+                  <!--reviews-->
+
+                  <div class="reviews">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  </div>
+
+              </div>
+               <!--comments-->
+              <div class="client-comment">
+              <p>It's very well mannered staff good coordination with patients. Mrs. Praveena garu assisted very well and taken good care towards patients. Overall experience is satisfactory.</p>
+
+               </div>
+              
+          </div>
+
+      </div>
+
+      <!--box2-->
+      <div class="testimonial-box">
+          <div class="box-top">
+              <div class="profile">
+                  <div class="profile-img">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKFYahZptwc0hwA6GyRNi1IfSyHQ1ZMV1rrA&usqp=CAU">
+                  </div>
+
+                  <div class="name-user">
+                      <strong>Thanuja</strong>
+                      <span>@thanuja_58</span>
+                  </div>
+                  <!--reviews-->
+
+                  <div class="reviews">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  </div>
+
+              </div>
+               <!--comments-->
+              <div class="client-comment">
+              <p>Recently visited health check up department of infinity Hospital for a whole body check up. The entire process from check in to the end was seamless. The staff at the health check department was courteous, helpful and very attentive. I would highly recommend this hospital to anyone looking for something similar services.
+              </p>
+
+               </div>
+              
+          </div>
+
+       </div>   
+       
+
+       
+
+          <!--box3-->
+      <div class="testimonial-box">
+          <div class="box-top">
+              <div class="profile">
+                  <div class="profile-img">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc-ebJSia1GKssu-GSPQKDm87gSDjq1Je06Q&usqp=CAU">
+                  </div>
+
+                  <div class="name-user">
+                      <strong>Punith</strong>
+                      <span>@punith_41</span>
+                  </div>
+                  <!--reviews-->
+
+                  <div class="reviews">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  </div>
+
+              </div>
+               <!--comments-->
+              <div class="client-comment">
+              <p>Dr Vijay Kumar Chennamchetty: We met Dr Vijay Chennamchetty last month with severe cough and sputum for my father Dr Varaprasad. His way of handling patients is excellent and so soothing that the patient feels immensely confident about recovery. Thanks to Dr. Vijay, within 2 weeks, he is completely normal.</p>
+
+               </div>
+              
+          </div>
+
+      </div>
+      </div>
+
+      <div class="column1">
+
+      <!--box4-->
+      <div class="testimonial-box">
+          <div class="box-top">
+              <div class="profile">
+                  <div class="profile-img">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7BRmLFsx6WilMJ5lpkFlZVmijdfMeITfogg&usqp=CAU">
+                  </div>
+
+                  <div class="name-user">
+                      <strong>Dedeepya</strong>
+                      <span>@dedeepya_ch</span>
+                  </div>
+                  <!--reviews-->
+
+                  <div class="reviews">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  </div>
+
+              </div>
+               <!--comments-->
+              <div class="client-comment">
+              <p>In Infinity hospital Dr.Radha Shah at reception people Mr.Venkat helping to patients excelent way of speaking Guidense.. I felt very Happy with this people.. I strongly recommend to my Friends n Relatives to this Infinity Hospital</p>
+
+               </div>
+              
+          </div>
+
+      </div>
+
+      <!--box5-->
+      <div class="testimonial-box">
+          <div class="box-top">
+              <div class="profile">
+                  <div class="profile-img">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJnu74HOxbQwkro-rqgi6uoRbEbkcwYm8FqyEZym6x_P9Ailj-ftSrlbM_bqrDpc5Z1gY&usqp=CAU">
+                  </div>
+
+                  <div class="name-user">
+                      <strong>Pravallika</strong>
+                      <span>@pravallika_43</span>
+                  </div>
+                  <!--reviews-->
+
+                  <div class="reviews">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  </div>
+
+              </div>
+               <!--comments-->
+              <div class="client-comment">
+              <p>Good maintainence of rooms. Nice geusture by nursing staff. Overall had a very good experience and feel at home. Good job. Cheers..!</p>
+
+               </div>
+              
+          </div>
+
+      </div>
+
+      <!--box6-->
+      <div class="testimonial-box">
+          <div class="box-top">
+              <div class="profile">
+                  <div class="profile-img">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQFuET1-lTXjegu13KHNMBL9dGseiwN2iUUA&usqp=CAU">
+                  </div>
+                  <div class="name-user">
+                      <strong>Gowtham</strong>
+                      <span>@gowtham_vn</span>
+                  </div>
+
+   <!--reviews-->
+
+                  <div class="reviews">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  </div>
+
+              </div>
+               <!--comments-->
+              <div class="client-comment">
+              <p>Hospital’s services are very good. Doctors are regularly available. Hospital is maintained very neatly.</p>
+               </div>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Single Nested-->
+<section class="single">
+  <div class="single1">
+    <img src="https://cdn.dribbble.com/users/1212356/screenshots/6038546/c_hipertensao.gif" alt="">
+  </div>
+
+  <div class="single2">
+    <a href="bookappointment.html" class="btn">book appointment</a>
+    <a href="healthcheckup.html" class="btn">health checkup</a>
+    <a href="review.html" class="btn">Post Review</a>
+  </div>
+  </section>
+
+<!--Footer-->
+<footer>
+
+  <div class="footer-container">  
+        
+             <ul >
+               <li><h4 style="text-align: left;" id="contact">Contact Us</h4></li>
+               <li ><i class="fa fa-phone"></i>+91-9392274955</li>
+                <li ><i class="fa fa-envelope"></i>infinityhospital597@gmail.com</li>
+                <li ><i class="fa fa-map-marker"></i>Pulivendula</li>
+             </ul>
+       
+             <ul >
+             <li> <h4>Follow Us</h4></li>
+             <li><a href="https://instagram.com/_infinity_hospital?igshid=ZDdkNTZiNTM="><i class="fa fa-instagram"></i> Instagram</a></li>
+             <li><a href="https://twitter.com/infinity_597?s=09"><i class="fa fa-twitter"></i> Twitter</a></li>
+             <li><a href="https://www.facebook.com/profile.php?id=100091841615313&mibextid=ZbWKwL"><i class="fa fa-facebook"></i>Facebook</a></li>
+            </ul>
+    
+            <ul >
+              <li> <h4>Patient Care</h4></li>
+              <li><a href="D:\Hospital\overview.html">Careers</a></li>
+               <li><a href="D:\Hospital\covid.html">COVID 19</a></li>
+               <li><a href="D:\Hospital\bookappointment.html">Find A Doctor</a></li>
+               <li><a href="#testimonials">Testimonials</a></li>
+               </ul>
+
+               <ul >
+               <li> <h4>Quick Links</h4></li>
+               <li><a href="D:\Hospital\overview.html">About Us</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="D:\Hospital\bookappointment.html">Book an Appointment</a></li>
+                <li><a href="D:\Hospital\healthcheckup.html">Body Mass Index</a></li>
+                </ul>
+           
+                <ul >
+                  <li> <h4>Services</h4></li>
+                 <li><a href="D:\Hospital\Dialysis.html">Dialysis</a></li>
+                 <li><a href="D:\Hospital\ENT\ent.html">ENT</a></li>
+                 <li><a href="covid.html">COVID-19</a></li>
+                 <li><a href="D:\Hospital\Dental.html">Dental</a></li>
+                 <li><a href="D:\Hospital\Eye.html">EYE</a></li>
+                 <li><a href="D:\Hospital\bloodbank.html">Blood Bank</a></li>
+               </ul>
+
+                  <ul >
+                    <li> <h4>Departments</h4></li>
+                   <li><a href="Cardiology.html">Cardiology</a></li>
+                   <li><a href="Neurology.html">Neurology</a></li>
+                   <li><a href="Gynacology.html">Gynacology</a></li>
+                   <li><a href="Dermatology.html">Dermatology</a></li>
+                   <li><a href="Orthopaedics.html">Orthopedics</a></li>
+                   <li><a href="Pediatrics.html">Pediatrics</a></li>
+                 </ul>
+              </div>
+                       
+<div class="footer-bottom">
+  <p style="text-align: center;">&copy 2023 Infinite Hospitals <br> All Rights Reserved</p>
+</div>
+</footer>
+  
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

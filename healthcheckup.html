@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinity Hospital</title>
+     <link rel="stylesheet" href="health.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://kit.fontawesome.com/62f2a127c8.css" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/62f2a127c8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <nav >
+    <div class="logo">
+      <h6 ><img src="D:\Hospital\Hospital Data\logo hos.png">INFINITY HOSPITAL</h6>
+    </div>
+    <ul>
+      <li> <i class="fa fa-home" aria-hidden="true"></i></li>
+      <li>  <a href="#about"> 
+        <div class="dropdown">
+          <div class="dropbtn">About</div>
+          <div class="dropdown-content">
+            <a href="D:\Hospital\overview.html">Overview</a>
+            <a href="#facilities">Facilities</a>
+            <a href="D:\Hospital\personalisedcare.html">Personalised Care</a>
+            <a href="D:\Hospital\surgicalskills.html">Surgical Skills</a>
+          </div>
+        </div>
+       </a></li>
+      <li> <a href="#departments"> 
+        <div class="dropdown">
+        <div class="dropbtn">Departments</div>
+        <div class="dropdown-content">
+          <a href="D:\Hospital\Cardiology.html">Cardiology</a>
+          <a href="D:\Hospital\Orthopaedics.html">Orthopaedics</a>
+          <a href="D:\Hospital\Neurology.html">Neurology</a>
+          <a href="D:\Hospital\Gynacology.html">Gynacology</a>
+          <a href="D:\Hospital\Dermatology.html">Dermatology</a>
+          <a href="D:\Hospital\Pediatrics.html">Pediatrics</a>
+        </div>
+      </div>
+     </a></li>
+      <li> <a href="#services">
+        <div class="dropdown">
+          <div class="dropbtn">Services</div>
+          <div class="dropdown-content">
+            <a href="D:\Hospital\covid.html">Covid-19</a>
+            <a href="D:\Hospital\Dental.html">Dental</a>
+            <a href="D:\Hospital\ent.html">ENT</a>
+            <a href="D:\Hospital\Eye.html">Eye</a>
+            <a href="D:\Hospital\bloodbank.html">Blood Bank</a>
+            <a href="D:\Hospital\Dialysis.html">Dialysis</a>
+          </div>
+        </div>
+       </a></li>
+      <li> <a href="#contact"> 
+        <div class="dropdown">
+          <div class="dropbtn">Contact Us</div>
+          <div class="dropdown-content">
+            <a href="D:\Hospital\Query.html">Post a Query</a>
+            <a href="D:\Hospital\bookappointment.html">Book an Appointment</a>
+            <a href="D:\Hospital\review.html">Post Review</a>
+          </div>
+        </div>
+       </a></li>
+    </ul>
+  </nav>
+
+ 
+  
+  <!-------Javascript for toggle menu---->
+<script>
+
+  var navLinks=document.getElementById("navLinks");
+  function showMenu(){
+      navLinks.style.right="0";
+  }
+  function hideMenu(){
+      navLinks.style.right="-200px";
+  }
+
+</script>
+
+<br>
+<body>
+  <section>
+    <h1 align="center" class="playfair italic sm-pt bold">BMI Calculator</h1>
+    <div class="bmi">
+    <p>The BMI is defined as the body mass divided by the square of the body height, and is universally expressed in units of kg/m2, resulting from mass in kilograms and height in metres.<br>
+
+        The BMI may also be determined using a table or chart which displays BMI as a function of mass and height using contour lines or colours for different BMI categories, and which may use other units of measurement (converted to metric units for the calculation).</p>
+
+<img src="https://www.healthhub.sg/sites/assets/Assets/Programs/bmi/image01.gif" alt="BMI"></div>
+
+<img src="https://www.healthhub.sg/sites/assets/Assets/Programs/bmi/image02.gif" alt="">
+
+    <div class="container">  
+       
+        <label>
+            <input id="h-input" type="number" placeholder="Enter Your Height in Centimeters: ">
+        </label>        
+        <label>
+            <input id="w-input" type="number" placeholder="Enter Your Weight in Kilogrames: ">
+        </label>            
+        <button type="submit" onclick="Calculate()">Calculate BMI</button>
+            
+        <div class="bmi-value">
+            <h5>BMI Value: </h5>
+            <div id="bmi-output"></div>
+        </div>
+        <div class="status">
+            <h4>Status: </h4>
+            <div id="bmi-status"></div>
+        </div>   
+    </div>
+
+  
+
+    
+<script>
+    
+function Calculate(){
+    var height = document.getElementById("h-input").value;
+    var weight = document.getElementById("w-input").value;
+
+    var result = parseFloat(weight) /(parseFloat(height)/100)**2;
+
+    if(!isNaN(result)){
+        document.getElementById("bmi-output").innerHTML = result;
+        if(result < 18.5){
+            document.getElementById("bmi-status").innerHTML = "Underweight";
+        }
+        else if(result < 25){
+            document.getElementById("bmi-status").innerHTML = "Healthy";
+        }
+        else if(result < 30){
+            document.getElementById("bmi-status").innerHTML = "Overweight";
+        }
+        else{
+            document.getElementById("bmi-status").innerHTML = "Obesity";
+        }
+    }
+}
+</script>
+  </section>
+
