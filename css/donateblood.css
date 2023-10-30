@@ -1,0 +1,159 @@
+body, html {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    overflow-x: hidden!important;
+    overflow-y: scroll;
+    -webkit-tap-highlight-color: rgba(0,0,0,.3);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'PT Sans',sans-serif;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #333;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+*, :focus, :hover {
+    outline: 0!important;
+}
+* {
+    border: 0;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* ::after, ::before {
+    box-sizing: border-box;
+}
+.classic_form { margin-bottom:15px; padding:15px;
+    font-size: inherit;
+    background: 0 0;
+    width: 100%;
+    height: auto;
+    line-height: normal;
+    padding: 10px 13px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    outline: 0!important;
+    box-shadow: none;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s; }
+    
+
+.radius, .radius-hover:hover {
+    border-radius: 5px!important;
+}
+.formcontainer { padding:20px; }
+
+.b1 .b2 .b3 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.bold-title {
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    line-height: 125%;
+}
+form{
+    display: block;
+}
+input[type="hidden" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+    border-color: initial;
+    border-radius: initial;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+#specialties {
+    color: #000000 !important;
+}
+select.classic_form {
+    cursor: pointer;
+    background: url(../images/bottom_black.png) right 16px center no-repeat transparent;
+    -webkitappearance: none;
+    background-size: 12px 6px;
+}
+.classic_form.big {
+    padding: 15px;
+}
+button[type=submit] {
+    position: relative;
+    overflow: hidden;
+}
+.bg-colored1 {
+    background: #0D7A77;
+}
+
+.bg-colored1, .bg-colored1-hover:hover {
+    background-color: #077480 !important;
+}
+.extrabold {
+    font-weight: 900;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+a, a:focus, a:hover, button, button:focus, button:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkitappearance: button;
+}
+.qdr-hover-6:after {
+    width: 150%;
+    height: 150%;
+    left: -250%;
+    top: -25%;
+    content: '';
+    display: block;
+    position: absolute;
+    opacity: .4;
+    background: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(255,255,255,1) 50%,rgba(0,0,0,0) 100%);
+}
+
+

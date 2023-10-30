@@ -1,0 +1,130 @@
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLTNmR05Lk77Yvr4nwApsqI-ivhJD5sRjqwKFM90X63y9KBp9KprI1DMjGwWLy-G8cES4&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.blood{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(234, 232, 219);
+    padding: auto;
+}
+
+.blood h1{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.blood p{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+.blood h3{
+    margin-left: 25px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.blood p1{
+    margin-left: 25px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.blood p2{
+    margin-left: 25px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.blood p3{
+    margin-left: 25px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    font-family: 'Poppins' sans-serif;
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 1px;
+}
+
+.content{
+    width: 600px;
+    height: auto;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    color: #ffffff;
+    position: relative;
+    font-family: 'Poppins' sans-serif;
+}
+
+
+.content h1{
+    font-family: 'Poppins' sans-serif;
+    font-size: 60px;
+    margin-left: 60%;
+    padding-left: 1px;
+    margin-top: 20%;
+    letter-spacing: 2px;
+}
+
+.content h2{
+    font-family: 'Poppins' sans-serif;
+    font-size: 25px;
+    margin-left: 60%;
+    padding-left: 1px;
+    margin-top: 2%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ffffff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 60%;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    font-family: 'Poppins' sans-serif;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+    font-family: 'Poppins' sans-serif;
+}
+
+.cn:hover{
+    background-color: #b52c2c;
+}
